@@ -61,8 +61,10 @@ a {
   letter-spacing: 0.64px;
   cursor: pointer;
 }
-
-
+.button-title:hover{
+  background-color: #404BBF
+}
+.button-title:focus{background-color: #404BBF}
 
 .logo-footer {
   color: var(--CLOUD, #f4f4fd);
@@ -95,7 +97,9 @@ font-style: normal;
 font-weight: 400;
 line-height: 24px; /* 150% */
 letter-spacing: 0.32px;
+
 }
+.link{font-style: normal;}
 .link:hover {color: #404bbf
 
 }
@@ -172,7 +176,7 @@ letter-spacing: 0.32px;
   line-height: 40px; /* 111.111% */
   letter-spacing: 0.72px;
   text-transform: capitalize;}
-  .port-h3{color: var(--NAVY-BLUE, #2E2F42);
+.port-h3{color: var(--NAVY-BLUE, #2E2F42);
 
     /* Header 3 */
     font-family: Roboto;
@@ -181,7 +185,7 @@ letter-spacing: 0.32px;
     font-weight: 500;
     line-height: 24px; /* 120% */
     letter-spacing: 0.4px;}
-  .port-p{
+.port-p{
 
     color: var(--SLATE, #434455);
 
@@ -205,4 +209,21 @@ font-style: normal;
 font-weight: 400;
 line-height: 24px; /* 150% */
 letter-spacing: 0.32px;
+}
+.link-spis{
+  color: var(--NAVY-BLUE, #2E2F42);
+
+/* Body Medium */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+letter-spacing: 0.32px;
+}
+.link-spis:hover{
+  color: #404bbf;
+}
+.link-spis:focus{
+  color: #404bbf;
 }
