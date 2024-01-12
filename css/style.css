@@ -97,6 +97,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 24px; /* 150% */
 letter-spacing: 0.32px;
+font-style: normal;
 
 }
 .link{font-style: normal;}
@@ -136,7 +137,7 @@ font-family: Roboto;
 font-size: 36px;
 font-style: normal;
 font-weight: 700;
-line-height: 40px; /* 111.111% */
+line-height: 1.11;
 letter-spacing: 0.72px;
 text-transform: capitalize;
 }
@@ -152,6 +153,7 @@ text-transform: capitalize;
   line-height: 24px; /* 120% */
   letter-spacing: 0.4px;
 }
+.team-spis{background-color: #FFFFFF}
 .team-p{
   color: var(--SLATE, #434455);
 text-align: center;
@@ -173,7 +175,7 @@ letter-spacing: 0.32px;
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 40px; /* 111.111% */
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;}
 .port-hsmall{color: var(--NAVY-BLUE, #2E2F42);
